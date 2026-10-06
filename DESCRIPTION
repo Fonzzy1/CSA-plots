@@ -1,0 +1,21 @@
+Package: claimspace
+Type: Package
+Title: Claim Space Analysis
+Version: 0.1.0
+Authors@R:
+    person(
+        "Alfie",
+        "Chadwick",
+        email = "YOUR_EMAIL@example.com",
+        role = c("aut", "cre")
+    )
+Description: Tools for representing policy framing through structured claims.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    ggplot2
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
